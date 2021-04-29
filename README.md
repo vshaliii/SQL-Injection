@@ -1,7 +1,7 @@
 # SQL-Injection
 SQL injection is a code injection technique that might destroy your database.  SQL injection is one of the most common web hacking techniques.  SQL injection is the placement of malicious code in SQL statements, via web page input.
 
-![picture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzqMMaSiLpc41gWmvmJrFHwTwTaOLS0mQOiw&usqp=CAU)
+![picture](https://www.marindelafuente.com.ar/wp-content/uploads/2019/04/banner-sql-injection.jpg)
 
 ### Basic SQL
 
